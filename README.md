@@ -10,5 +10,13 @@
 brew install golang-migrate
 ```
 
+**Install sqlc for database query generation**
+<https://docs.sqlc.dev/en/stable/overview/install.html>
+
+```bash
+brew install sqlc
+```
+
+
 
 
