@@ -9,7 +9,7 @@ import (
 )
 
 type Querier interface {
-	CreateAuthor(ctx context.Context, arg CreateAuthorParams) (Accounts, error)
+	CreateAccount(ctx context.Context, arg CreateAccountParams) (Accounts, error)
 	CreateEntry(ctx context.Context, arg CreateEntryParams) (Entries, error)
 	CreateTransfer(ctx context.Context, arg CreateTransferParams) (Transfers, error)
 	DeleteAccount(ctx context.Context, id int64) error

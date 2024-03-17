@@ -18,5 +18,5 @@ brew install sqlc
 ```
 
 
-
-
+go get github.com/go-pg/pg/v10 
+go get github.com/stretchr/testify
